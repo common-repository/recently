@@ -1,0 +1,40 @@
+{
+    "name": "Tiny",
+    "description": "A very compact recent posts list.",
+    "authors": [
+        {
+            "name": "Hector Cabrera",
+            "email": "me@cabrerahector.com",
+            "role": "Creator / Main Developer"
+        }
+    ],
+    "config": {
+        "shorten_title": {
+            "active": false
+        },
+        "post-excerpt": {
+            "active": false
+        },
+        "thumbnail": {
+            "active": false
+        },
+        "rating": false,
+        "meta_tag": {
+            "comment_count": false,
+            "views": false,
+            "author": false,
+            "date": {
+                "active": false
+            },
+            "taxonomy": {
+                "active": true,
+                "name": "category"
+            }
+        },
+        "markup": {
+            "recently-start": "<ul class=\"recently-list recently-tiny\">",
+            "recently-end": "</ul>",
+            "post-html": "<li><div class=\"recently-item-data\">{category}</div> {title}</li>"
+        }
+    }
+}
